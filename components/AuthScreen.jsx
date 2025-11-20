@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Bus, User, Lock } from 'lucide-react';
 import Button from './Button';
-import Input from './Input';
+import Input from './InputField';
 
 const AuthScreen = ({ onLogin, onSignup, mode, setMode, error, loading }) => {
   const [email, setEmail] = useState('');
